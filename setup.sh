@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir /storage/cfg
+mkdir -p /storage/cfg
 ln -sf `pwd`/pre-run.sh /storage/pre-run.sh
 ln -sf `pwd`/.bash.local /storage/
 ./pre-run.sh
